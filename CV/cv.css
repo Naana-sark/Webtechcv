@@ -96,7 +96,7 @@ nav ul li{
   }
 
 @media(min-width: 800px){
-    .titlespace{
+    .titles{
         display: flex;
         justify-content: center;
         padding: 10px;
@@ -118,7 +118,7 @@ nav ul li{
     
     
 }
-    #titleelements li{
+    #titlee li{
     display: block;
     list-style: none;
     text-align: center;
