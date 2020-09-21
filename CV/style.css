@@ -112,12 +112,12 @@ border: 2px solid red;
   
 
 
-form{
+/*form{
   
   flex-direction: column;
   justify-content: center;
   
-}
+}*/
 
 label{
   display: inline-block;
