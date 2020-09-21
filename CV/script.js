@@ -49,7 +49,7 @@ function onSubmit(event){
     }
     
     else{
-        location.href = "CV/cv.html";
+        location.href = "CV/CV/cv.html";
     }
 }
 
