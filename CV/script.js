@@ -28,7 +28,7 @@ function onSubmit(event){
     const address = document.getElementById("address");
     localStorage.setItem("address", address.value);
     
-    const name_format = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/;
+    const name_format = /^[a-zA-Z].*[\s\.]*$/;
     const number_format = /^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/;
     const email_format = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
